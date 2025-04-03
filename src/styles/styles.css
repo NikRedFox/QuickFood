@@ -1,0 +1,55 @@
+/* INICIO HEADER */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 40px 100px;
+}
+
+
+.header-links{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.green-text{
+    color: #00A000;
+}
+
+.header-item{
+    text-decoration: none;
+    color: rgba(0, 0, 1, 0.6); 
+}
+
+.header-button-container{
+    display: flex;   
+    gap: 24px;
+}
+
+.header-button-iconbox{
+    display: flex;
+    width: 95px;
+    height: 40px;
+}
+
+.header-button-icon{
+    border: 0;
+    background-color: transparent;   
+    cursor: pointer; 
+}
+
+.header-button-login{
+    width: 105px;
+    height: 51px;
+    border: 1px solid #00A000;
+    border-radius: 10px;
+    background-color: transparent;
+    color:  #00A000;
+    cursor: pointer;
+}
+/* FIM HEADER */
+
+/* INICIO MAIN */
+
+/* FIM MAIN */
