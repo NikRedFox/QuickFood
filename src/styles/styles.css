@@ -1,9 +1,11 @@
+@import url(./global.css);
 /* INICIO HEADER */
 header{
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: space-around;
     align-items: center;    
-    padding: 40px 100px;
+    padding: 40px 0px;
 }
 
 
@@ -51,5 +53,40 @@ header{
 /* FIM HEADER */
 
 /* INICIO MAIN */
+main{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
 
+.healthy-container{
+    display: flex;
+    width: 540px;
+    height: 391px;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 51.5px;
+}
+
+.healthy-container h1{    
+    height: 160px;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+    
+}
+
+.healthy-container p{
+    display: flex;
+    color: rgba(0, 0, 1, 0.6);
+    font-size: 18px; 
+    width: 420px;
+    line-height: 1.6;
+}
+
+.healthy-img{
+    display: flex;
+    width: 651px;
+    height: 494px;
+}
 /* FIM MAIN */
