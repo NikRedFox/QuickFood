@@ -116,3 +116,29 @@ main{
     font-weight: bold;
 }
 /* FIM MAIN */
+
+/* INICIO WHY CHOOSE US */
+.why-container{
+    /* display: flex; */
+    width: 679px;
+    height: 87px;
+    gap: 7px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+.why-container h2{
+    font-size: 48px;
+    display: flex;
+    width: 355px;
+    height: 59px;
+    margin: 0px 0px 7px 0px;
+}
+
+.why-container p{
+    font-size: 18px;
+    color: #999999;
+    margin: 0;
+}
+
+/* FIM WHY CHOOSE US */
