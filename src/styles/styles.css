@@ -177,10 +177,41 @@ main{
 
 .why-img-text h3{
     margin: 0px;  
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.why-img-text p{
+    font-size: 18px;
+    color: rgba(0, 0, 1, 0.6);
 }
 
 .why-numbers{
     display: flex;
     justify-content: center;
+    gap: 47px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.why-numbers-text{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 400px;
+    height: 87px;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-numbers-text h2{
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.why-numbers-text p{
+    font-size: 18px;
+    color: rgba(0, 0, 1, 0.6);
 }
 /* FIM WHY CHOOSE US */
