@@ -119,13 +119,15 @@ main{
 
 /* INICIO WHY CHOOSE US */
 .why-container{
-    /* display: flex; */
+    display: flex;
     width: 679px;
     height: 87px;
     gap: 7px;
-    margin: 0;
+    margin-bottom: 60px;
+    margin-left: 310px;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 .why-container h2{
     font-size: 48px;
@@ -141,4 +143,44 @@ main{
     margin: 0;
 }
 
+.why-img-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.why-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 339px;
+}
+
+.order-img{
+    display: flex;
+    width: 216px;
+    height: 289px;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-img-text{
+    display: flex;    
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 220px;
+    gap: 8px;
+    margin-top: 40px;
+}
+
+.why-img-text h3{
+    margin: 0px;  
+}
+
+.why-numbers{
+    display: flex;
+    justify-content: center;
+}
 /* FIM WHY CHOOSE US */
