@@ -8,7 +8,6 @@ header{
     padding: 40px 0px;
 }
 
-
 .header-links{
     display: flex;
     list-style: none;
@@ -215,3 +214,61 @@ main{
     color: rgba(0, 0, 1, 0.6);
 }
 /* FIM WHY CHOOSE US */
+
+/* SPECIAL DISHES */
+.special-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.special-container h2{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.special-dishes-container{
+    display: flex;
+    width: 1240px;
+    height: 483px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.special-img{
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 483px;
+}
+
+.special-img h3{
+    font-size: 28px;
+    margin: 0;
+}
+
+.special-img p{
+    display: flex;
+    width: 279px;
+    height: 58px;
+    font-size: 18px;
+    color: rgba(0, 0, 1, 0.6);
+}
+
+.special-img button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 352px;
+    height: 53px;
+    background-color: #00A000;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+}
+/* FIM SPECIAL DISHES */
