@@ -352,8 +352,7 @@ main{
 .about-container{
     display: flex;
     justify-content: center;   
-    gap: 82px;
-    height: 602px;
+    gap: 82px;    
     padding: 100px;
 }
 
@@ -374,6 +373,7 @@ main{
     margin: 0;
     color: rgba(0, 0, 1, 0.6);
     line-height: 1.5;
+    width: 558px;
 }
 
 .about-text button{
@@ -386,7 +386,69 @@ main{
     font-size: 18px;
 }
 
-.about-img{
+/* FIM ABOUT US */
+
+/* SUBSCRIBE */
+.subscribe-bg{
+    background-color: #FAFAFA;
+    display: flex;    
+    padding: 100px 326px;
+    margin-top: 60px;
+    justify-content: center;    
+}
+
+.subscribe-container{
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+    gap: 60px;
+    height: 224px;
+}
+
+.subscribe-text{    
+    text-align: center;
+}
+
+.subscribe-text h2{
+    font-size: 48px;
+    margin: 0;
 
 }
-/* FIM ABOUT US */
+
+.subscribe-text p{
+    font-size: 18px;
+    color: rgba(0, 0, 1, 0.6);
+}
+
+.subscribe-form{
+    position: relative;
+    display: flex;
+    
+}
+.subscribe-input{      
+    width: 688px;
+    height: 61px; 
+    border-radius: 8px;
+    background-color: #ffffff;
+    border: 1px solid #C1C1C1 ;
+    padding: 8px 8px 8px 24px;    
+}
+
+.subscribe-input::placeholder{
+    color: black;
+    font-size: 18px;
+}
+
+.subscribe-button{
+    width: 174px;
+    height: 61px;
+    background-color: #00A000;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+    font-size: 24px;
+    position: absolute;
+    top: 8px;
+    left: 540px;
+}
+/* FIM SUBSCRIBE */
