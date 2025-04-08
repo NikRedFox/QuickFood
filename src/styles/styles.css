@@ -117,6 +117,10 @@ main{
 /* FIM MAIN */
 
 /* INICIO WHY CHOOSE US */
+.why-bg{
+    background-color: #FAFAFA;
+    padding: 100px;
+}
 .why-container{
     display: flex;
     width: 679px;
@@ -189,8 +193,7 @@ main{
     display: flex;
     justify-content: center;
     gap: 47px;
-    margin-top: 60px;
-    margin-bottom: 100px;
+    margin-top: 60px;    
 }
 
 .why-numbers-text{
@@ -221,6 +224,7 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 100px;
 }
 
 .special-container h2{
@@ -272,3 +276,73 @@ main{
     border-radius: 8px;
 }
 /* FIM SPECIAL DISHES */
+
+/* CLIENTS */
+.clients-bg{
+    background-color: #FAFAFA;
+    padding: 100px;
+    gap: 60px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.clients-title{
+    display: flex;      
+    align-items: center;
+    flex-direction: column;
+
+    gap: 8px;
+}
+
+.clients-title h2{
+    font-size: 48px;
+    margin: 0;
+}
+
+.clients-title p{
+    color: #999999;
+    margin: 0;
+}
+
+.clients-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    gap: 24px;
+    margin-bottom: 60px ;
+}
+
+.clients-cards{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 329px;
+    height: 320px;
+    gap: 24px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.clients-textbox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0;
+}
+
+.clients-textbox h3{
+    margin: 0;
+    font-size: 28px;
+}
+
+.clients-textbox p{
+    margin: 0;
+    font-size: 18px;
+    width: 333px;
+    text-align: center;
+    color: rgba(0, 0, 1, 0.6);
+}
+/* FIM CLIENTS */
