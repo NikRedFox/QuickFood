@@ -444,11 +444,15 @@ main{
     height: 61px;
     background-color: #00A000;
     color: white;
-    border-radius: 8px;
-    border: 0;
     font-size: 24px;
+    border-radius: 8px;
+    border: 0;    
     position: absolute;
     top: 8px;
     left: 540px;
 }
 /* FIM SUBSCRIBE */
+
+/* FOOTER */
+
+/* FIM FOOTER */
