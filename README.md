@@ -20,8 +20,7 @@
 - src
   - assets
     - fonts
-    - images
-  - js
+    - images  
   - style   
 
 - index.html
