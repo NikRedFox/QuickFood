@@ -15,12 +15,12 @@ header{
 }
 
 .green-text{
-    color: #00A000;
+    color: var(--color-green-primary);
 }
 
 .header-item{
     text-decoration: none;
-    color: rgba(0, 0, 1, 0.6); 
+    color: var(--color-black-opacity); 
 }
 
 .header-button-container{
@@ -43,10 +43,10 @@ header{
 .header-button-login{
     width: 105px;
     height: 51px;
-    border: 1px solid #00A000;
+    border: 1px solid var(--color-green-primary);
     border-radius: 10px;
     background-color: transparent;
-    color:  #00A000;
+    color: var(--color-green-primary);
     cursor: pointer;
 }
 /* FIM HEADER */
@@ -55,7 +55,6 @@ header{
 main{
     display: flex;
     justify-content: space-between;
-    /* gap: 124px; */
     margin: 100px 100px 100px 180px;
 }
 
@@ -70,16 +69,15 @@ main{
 
 .healthy-container h1{    
     height: 160px;
-    font-size: 60px;
+    font-size: var(--headline1);
     font-weight: bold;
-    margin: 0;
-    
+    margin: 0;    
 }
 
 .healthy-container p{
     display: flex;
-    color: rgba(0, 0, 1, 0.6);
-    font-size: 18px; 
+    color: var(--color-black-opacity);
+    font-size: var(--body-regular1); 
     width: 420px;
     line-height: 1.6;
 }
@@ -87,18 +85,17 @@ main{
 .healthy-img{
     display: flex;
     width: 651px;
-    height: 494px;
-    /* overflow: hidden; */
+    height: 494px;   
 }
 
 .main-button-order{
     width: 144px;
     height: 51px;
-    background-color: #00A000;
-    color: #ffffff;
+    background-color: var(--color-green-primary);
+    color: var(--color-white);
     cursor: pointer;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: var(--body-regular2);
     font-weight: bold;
     border: 0;
 }
@@ -107,19 +104,22 @@ main{
     width: 188px;
     height: 51px;
     background-color: transparent;
-    border: 2px solid #00A000;
-    color:  #00A000;
+    border: 2px solid var(--color-green-primary);
+    color: var(--color-green-primary);
     cursor: pointer;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: var(--body-regular2);
     font-weight: bold;
 }
 /* FIM MAIN */
 
 /* INICIO WHY CHOOSE US */
 .why-bg{
-    background-color: #FAFAFA;
+    background-color: var(--color-white-BG);
     padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .why-container{
     display: flex;
@@ -127,13 +127,13 @@ main{
     height: 87px;
     gap: 7px;
     margin-bottom: 60px;
-    margin-left: 310px;
+    
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 .why-container h2{
-    font-size: 48px;
+    font-size: var(--headline2);
     display: flex;
     width: 355px;
     height: 59px;
@@ -142,19 +142,19 @@ main{
 
 .why-container p{
     font-size: 18px;
-    color: #999999;
+    color: var(--color-gray);
     margin: 0;
 }
 
 .why-img-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 45px;
 }
 
 .why-img{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column;    
     align-items: center;
     width: 400px;
     height: 339px;
@@ -180,13 +180,13 @@ main{
 
 .why-img-text h3{
     margin: 0px;  
-    font-size: 18px;
+    font-size: var(--body-regular1);
     font-weight: bold;
 }
 
 .why-img-text p{
-    font-size: 18px;
-    color: rgba(0, 0, 1, 0.6);
+    font-size: var(--body-regular1);
+    color: var(--color-black-opacity);
 }
 
 .why-numbers{
@@ -208,13 +208,13 @@ main{
 
 .why-numbers-text h2{
     margin: 0;
-    font-size: 48px;
+    font-size: var(--headline2);
     font-weight: bold;
 }
 
 .why-numbers-text p{
-    font-size: 18px;
-    color: rgba(0, 0, 1, 0.6);
+    font-size: var(--body-regular1);
+    color: var(--color-black-opacity);
 }
 /* FIM WHY CHOOSE US */
 
@@ -228,7 +228,7 @@ main{
 }
 
 .special-container h2{
-    font-size: 48px;
+    font-size: var(--headline2);
     font-weight: bold;
 }
 
@@ -239,7 +239,6 @@ main{
     justify-content: center;
     align-items: center;
     gap: 20px;
-
 }
 
 .special-img{
@@ -252,7 +251,7 @@ main{
 }
 
 .special-img h3{
-    font-size: 28px;
+    font-size: var(--headline3);
     margin: 0;
 }
 
@@ -260,8 +259,8 @@ main{
     display: flex;
     width: 279px;
     height: 58px;
-    font-size: 18px;
-    color: rgba(0, 0, 1, 0.6);
+    font-size: var(--body-regular1);
+    color: var(--color-black-opacity);
 }
 
 .special-img button{
@@ -270,9 +269,9 @@ main{
     align-items: center;
     width: 352px;
     height: 53px;
-    background-color: #00A000;
-    color: white;
-    font-size: 18px;
+    background-color: var(--color-green-primary);
+    color: var(--color-white);
+    font-size: var(--body-regular1);
     border: 0;
     border-radius: 8px;
 }
@@ -280,7 +279,7 @@ main{
 
 /* CLIENTS */
 .clients-bg{
-    background-color: #FAFAFA;
+    background-color: var(--color-white-BG);
     padding: 100px;
     gap: 60px;
     margin: 0;
@@ -292,17 +291,16 @@ main{
     display: flex;      
     align-items: center;
     flex-direction: column;
-
     gap: 8px;
 }
 
 .clients-title h2{
-    font-size: 48px;
+    font-size: var(--headline2);
     margin: 0;
 }
 
 .clients-title p{
-    color: #999999;
+    color: var(--color-gray);
     margin: 0;
 }
 
@@ -321,7 +319,7 @@ main{
     width: 329px;
     height: 320px;
     gap: 24px;
-    background-color: #ffffff;
+    background-color: var(--color-white);
     border-radius: 16px;
     padding: 40px;
 }
@@ -336,15 +334,15 @@ main{
 
 .clients-textbox h3{
     margin: 0;
-    font-size: 28px;
+    font-size: var(--headline3);
 }
 
 .clients-textbox p{
     margin: 0;
-    font-size: 18px;
+    font-size: var(--body-regular1);
     width: 333px;
     text-align: center;
-    color: rgba(0, 0, 1, 0.6);
+    color: var(--color-black-opacity);
 }
 /* FIM CLIENTS */
 
@@ -369,9 +367,9 @@ main{
 }
 
 .about-text p{
-    font-size: 18px;
+    font-size: var(--body-regular1);
     margin: 0;
-    color: rgba(0, 0, 1, 0.6);
+    color: var(--color-black-opacity);
     line-height: 1.5;
     width: 558px;
 }
@@ -379,18 +377,18 @@ main{
 .about-text button{
     width: 157px;
     height: 53px;
-    background-color: #00A000;
-    color: white;
+    background-color: var(--color-green-primary);
+    color: var(--color-white);
     border-radius: 10px;
     border: 0;
-    font-size: 18px;
+    font-size: var(--body-regular1);
 }
 
 /* FIM ABOUT US */
 
 /* SUBSCRIBE */
 .subscribe-bg{
-    background-color: #FAFAFA;
+    background-color: var(--color-white-BG);
     display: flex;    
     padding: 100px 326px;
     margin-top: 60px;
@@ -410,14 +408,13 @@ main{
 }
 
 .subscribe-text h2{
-    font-size: 48px;
+    font-size: var(--headline2);
     margin: 0;
-
 }
 
 .subscribe-text p{
-    font-size: 18px;
-    color: rgba(0, 0, 1, 0.6);
+    font-size: var(--body-regular1);
+    color: var(--color-black-opacity);
 }
 
 .subscribe-form{
@@ -429,21 +426,21 @@ main{
     width: 688px;
     height: 61px; 
     border-radius: 8px;
-    background-color: #ffffff;
+    background-color: var(--color-white);
     border: 1px solid #C1C1C1 ;
     padding: 8px 8px 8px 24px;    
 }
 
 .subscribe-input::placeholder{
-    color: black;
-    font-size: 18px;
+    color: var(--color-gray-black);
+    font-size: var(--body-regular1);
 }
 
 .subscribe-button{
     width: 174px;
     height: 61px;
-    background-color: #00A000;
-    color: white;
+    background-color: var(--color-green-primary);
+    color: var(--color-white);
     font-size: 24px;
     border-radius: 8px;
     border: 0;    
@@ -455,11 +452,12 @@ main{
 
 /* FOOTER */
 .footer-bg{
-    background-color: #00A000;
+    background-color: var(--color-green-primary);
     display: flex;
     align-items: center;
     flex-direction: column;
     padding: 100px;
+    margin-top: 60px;
 }
 
 .footer-container{
@@ -486,14 +484,14 @@ main{
 }
 
 .footer-list h2{
-    color: white;
+    color: var(--color-white);
     margin: 0;
     margin-bottom: 30px;
 }
 
 .footer-links{
     list-style: none;    
-    font-size: 18px;
+    font-size: var(--body-regular1);
     padding: 0;
 }
 
@@ -501,12 +499,12 @@ main{
     text-decoration: none;
     display: block;
     gap: 16px;
-    color: #ffffff;
+    color: var(--color-white);
     margin-bottom: 16px;
 }
 
 .footer-line{
-    background-color: white;
+    background-color: var(--color-white);
     height: 1px;
     width: 1420px;
 }
@@ -518,7 +516,7 @@ main{
 }
 
 .footer-bottom p{
-    color: white;
-    font-size: 20px;    
+    color: var(--color-white);
+    font-size: var(--body-regular3);    
 }
 /* FIM FOOTER */
