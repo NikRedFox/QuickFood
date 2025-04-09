@@ -51,6 +51,11 @@ QuickFood é um site que desenvolvi a partir de um template no Figma, para testa
 2 - Abrir em um editor de código <br>
 3 - Abrir o arquivo index.html
 
+<!-- LINK PARA O GITHUB PAGES -->
+
+* Pode também rodar o site sem baixar pelo link do guithub pages:
+* <a href="https://nikredfox.github.io/QuickFood/">QuickFood</a>
+
 <!-- MODELO DE PRÉ REQUISITOS -->
 ### Pré-requisitos
 
@@ -94,3 +99,9 @@ Nikolas Barbosa dos Santos</a>
 
 <!-- ---------------------------------------------------------------------- -->
 
+<!-- MODELO DE LICENÇA -->
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
+
+Feito por Nikolas Barbosa dos Santos👋🏽
