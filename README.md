@@ -67,7 +67,8 @@ Antes de começar, você vai precisar ter instalado em sua máquina um editor de
 ## 🛠 Tecnologias
 
 Ferramentas:
-#### Desenvolvimento (HTML)
+#### Desenvolvimento (HTML, CSS)
+#### FIGMA
 
 ---
 
