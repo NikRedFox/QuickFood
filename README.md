@@ -94,3 +94,9 @@ Nikolas Barbosa dos Santos</a>
 
 <!-- ---------------------------------------------------------------------- -->
 
+<!-- MODELO DE LICENÇA -->
+## 📝 Licença
+
+Este projeto esta sobe a licença [MIT](./LICENSE).
+
+Feito por Nikolas Barbosa dos Santos👋🏽
