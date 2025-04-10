@@ -54,7 +54,8 @@ header{
 /* INICIO MAIN */
 main{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 150px;
     margin: 100px 100px 100px 180px;
 }
 
@@ -466,7 +467,7 @@ main{
 .footer-container{
     display: flex;
     justify-content: center;
-    gap: 500px;
+    gap: 200px;
     margin-bottom: 80px;
 }
 
